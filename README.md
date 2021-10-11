@@ -17,3 +17,34 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+# JustDDNS
+
+> 阿里云域名ddns动态域名解析 Java版本
+
+```markdown
+实现动态域名解析DDNS
+https://help.aliyun.com/document_detail/172994.html
+
+GitHub - XAS-712/Aliyun_DDNS: 利用Aliyun的修改解析记录API/SDK写的DDNS脚本 Py版本
+https://github.com/XAS-712/Aliyun_DDNS
+
+python脚本实现ipv6的ddns功能-阿里云开发者社区
+https://developer.aliyun.com/article/695773
+
+Python实现阿里云域名DDNS支持ipv4和ipv6 - Zeruns's Blog
+https://blog.zeruns.tech/archives/507.html
+
+Python实现阿里云域名DDNS支持ipv4和ipv6-阿里云开发者社区
+https://developer.aliyun.com/article/755182
+
+Python实现阿里云域名DDNS支持ipv4和ipv6: 阿里云域名ddns动态域名解析Python源码，支持ipv4和ipv6
+https://gitee.com/zeruns/aliddns_Python
+
+GitHub - zeruns/-Python-aliddns_ipv4-ipv6: 阿里云域名ddns动态域名解析Python源码
+https://github.com/zeruns/-Python-aliddns_ipv4-ipv6
+```
+
+# api
+
+`访问我`
+> http://localhost:8866/api/app
