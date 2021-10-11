@@ -52,6 +52,8 @@ public class DdnsService {
                 if (!record.getValue().equals(pubIP) || !record.getType().equals("A") || !record.getRR().equals(subDomainName)) {//不相等,修改
                     logger.info("CheckRecords 修改解析记录：" + subDomainName + ":" + pubIP);
                     AliDdnsUtils.editDomainRecord(record.getRecordId(), subDomainName, pubIP);
+                } else {
+                    logger.info("CheckRecords 已存在此解析 公网ip未改变 无需更新dns解析 此解析记录详情 子域名: " + subDomainName + " 公网ip: " + record.getValue() + " 对应三级域名为: " + subDomainName + "." + record.getDomainName());
                 }
             }
         }
