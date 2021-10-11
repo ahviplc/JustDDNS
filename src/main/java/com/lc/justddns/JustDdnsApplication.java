@@ -11,5 +11,4 @@ public class JustDdnsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JustDdnsApplication.class, args);
 	}
-
 }

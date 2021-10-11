@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### log ###
+JustDDNS-debug.log
+JustDDNS-error.log
+
 ### STS ###
 .apt_generated
 .classpath

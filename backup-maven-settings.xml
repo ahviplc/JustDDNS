@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <!--阿里云Maven中央仓库-仓库服务-https://maven.aliyun.com/mvn/guide-->
+
+    <!--本地仓库目录，注意此处目录应该与上面的设置Local Repository一致-->
+    <!--<localRepository>H:/maven/repository</localRepository>-->
+    <localRepository>C:\Users\Administrator\.m2\repository</localRepository>
+    <mirrors>
+        <mirror>
+            <!--该镜像的id-->
+            <id>aliyun-maven</id>
+            <!--该镜像用来取代的远程仓库，*的意思就是（根据mirrorOf和repository的id）匹配所有的库（repository）-->
+            <!--匹配aliyun-maven-repo,aliyun-maven-repo是pom.xml中自定义repository仓库的id-->
+            <!--其实按道理,pom.xml里配置的aliyun-maven-repo已经是阿里云中央仓库了,转到这边,再用阿里云中央仓库链接取代其链接,多此一举,这里只是为了更加理解其含义,做的配置-->
+            <!--排除ahviplc-maven-repo，ahviplc-maven-repo是pom.xml中自定义repository仓库的id-->
+            <!--排除UGent，UGent是pom.xml中自定义repository仓库的id-->
+            <mirrorOf>*,!ahviplc-maven-repo,!UGent</mirrorOf>
+            <name>阿里云公共仓库-public</name>
+            <!--该镜像的仓库地址，这里是用的阿里的仓库【https://maven.aliyun.com/repository/public】【http://maven.aliyun.com/nexus/content/groups/public】【C:\Users\Administrator\.m2\settings.xml】-->
+            <url>https://maven.aliyun.com/repository/public</url>
+        </mirror>
+
+        <mirror>
+            <!--该镜像的id-->
+            <id>nexus-aliyun</id>
+            <!--该镜像用来取代的远程仓库，central是中央仓库的id-->
+            <!--排除ahviplc-maven-repo，ahviplc-maven-repo是pom.xml中自定义repository仓库的id-->
+            <mirrorOf>central,!ahviplc-maven-repo</mirrorOf>
+            <name>Nexus aliyun</name>
+            <!--该镜像的仓库地址，这里是用的阿里的仓库【https://maven.aliyun.com/repository/public】【http://maven.aliyun.com/nexus/content/groups/public】【C:\Users\Administrator\.m2\settings.xml】-->
+            <url>https://maven.aliyun.com/repository/public</url>
+        </mirror>
+    </mirrors>
+</settings>

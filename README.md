@@ -22,8 +22,21 @@ The following guides illustrate how to use some features concretely:
 > 阿里云域名ddns动态域名解析 Java版本
 
 ```markdown
-实现动态域名解析DDNS
+实现动态域名解析DDNS Java版本
 https://help.aliyun.com/document_detail/172994.html
+
+具体实现动态域名解析DDNS Java版本
+https://note.youdao.com/ynoteshare/index.html?id=c2fe233164c3756b38693d78f31347ed
+
+ienai/AliYunDdns - 码云 - 开源中国 具体实现动态域名解析DDNS Java版本
+https://gitee.com/ienai/AliYunDdns/tree/master
+
+Collection: / =【https://mvnrepository.com/repos/ugent-genesis】
+http://genesis.ugent.be/maven2/
+http://genesis.ugent.be/maven2/net/jimmc/jshortcut/
+
+GitHub - jimmc/jshortcut: Java/JNI interface to access Windows shortcuts
+https://github.com/jimmc/jshortcut
 
 GitHub - XAS-712/Aliyun_DDNS: 利用Aliyun的修改解析记录API/SDK写的DDNS脚本 Py版本
 https://github.com/XAS-712/Aliyun_DDNS
@@ -42,6 +55,12 @@ https://gitee.com/zeruns/aliddns_Python
 
 GitHub - zeruns/-Python-aliddns_ipv4-ipv6: 阿里云域名ddns动态域名解析Python源码
 https://github.com/zeruns/-Python-aliddns_ipv4-ipv6
+
+python requirements文件生成与使用 - 萤huo虫 - 博客园
+https://www.cnblogs.com/TF511/articles/10758953.html
+
+maven 使用assembly 进行打包_zhongzunfa的专栏-CSDN博客
+https://blog.csdn.net/zhongzunfa/article/details/82465939
 ```
 
 # api
@@ -55,4 +74,77 @@ https://blog.csdn.net/ouyang111222/article/details/87862194
 
 Spring Boot Web 开发@Controller @RestController 使用教程 - fishpro - 博客园
 https://www.cnblogs.com/fishpro/p/spring-boot-study-restcontroller.html
+
+666 - maven3 springboot 几种打包构建方法 assembly - 简书
+https://www.jianshu.com/p/4f67f9e3f0a7
+
+Spring cloud的Maven插件（一）：repackage目标 - 壮壮熊 - 博客园
+https://www.cnblogs.com/zhouqinxiong/p/repackage.html
+
+666666 -【Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]】报错解决办法- SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]_-CSDN博客
+产生这个错误的原因是在产生日志信息的时候有两个桥接器，发生冲突导致error
+因为是有两个桥接器发生冲突，我们只需要消除一个就可以了
+https://blog.csdn.net/weixin_48991096/article/details/117756811
+```
+
+# Note
+
+`一些链接`
+
+```markdown
+此Java版本 借鉴于
+ienai/AliYunDdns
+https://gitee.com/ienai/AliYunDdns
+https://gitee.com/ienai/AliYunDdns/blob/master/pom.xml
+
+backup-maven-settings.xml 备份 来自于
+https://hub.fastgit.org/ahviplc/lc-es-api/blob/master/lc-es-api/pom.xml
+```
+
+`导出python安装的所有依赖：`
+
+生成 requirementts.txt:    
+执行命令
+> pip freeze > requirements.txt
+
+安装命令：
+> pip install -r requriements.txt
+
+`Py版本`
+> JustAliYunDdnsPy/app.py
+
+进入JustAliYunDdnsPy文件夹
+
+执行命令
+> python app.py
+
+`去除 maven-assembly-plugin 插件`
+
+```xml
+  <!-- 使用 assembly 进行打包-->
+<plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <configuration>
+        <appendAssemblyId>false</appendAssemblyId>
+        <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+        <archive>
+            <manifest>
+                <!-- 此处指定main方法入口的class -->
+                <mainClass>com.lc.ddns.AppRun</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+    <executions>
+        <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+                <!--<goal>single</goal>-->
+               <!-- <goal>assembly</goal>-->
+            </goals>
+        </execution>
+    </executions>
+</plugin>
 ```

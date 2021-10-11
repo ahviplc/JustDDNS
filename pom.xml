@@ -15,11 +15,98 @@
     <description>JustDDNS</description>
     <properties>
         <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 使用maven打包跳过javadoc-->
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <!-- 使用maven打包跳过test-->
+        <skipTests>true</skipTests>
     </properties>
+
+    <!-- repositories 其他maven下载仓库-->
+    <repositories>
+        <!-- 阿里云公共仓库-public是central仓和jcenter仓的聚合仓-->
+        <repository>
+            <id>aliyun-maven-repo</id>
+            <name>阿里云公共仓库-public</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+
+        <!-- 这里目前没有用 只是留存一份 配合 maven settings-->
+        <!-- 添加repositories 使用fastgit 速度更快 可解决Could not transfer artifact问题-->
+        <repository>
+            <id>ahviplc-maven-repo</id>
+            <!-- 原始链接 -->
+            <!-- <url>https://raw.githubusercontent.com/ahviplc/maven-repository/master/repository</url> -->
+            <!-- fastgit 基本废弃 fastgit之前有点问题 现在可以了 2021-4-10 21:23:43 -->
+            <!-- <url>https://raw.fastgit.org/ahviplc/maven-repository/master/repository</url> -->
+            <!-- ghproxy【https://ghproxy.com/】速度更快 -->
+            <!-- <url>https://ghproxy.com/https://raw.githubusercontent.com/ahviplc/maven-repository/master/repository</url> -->
+            <!-- bajins【https://github.bajins.com/】速度也不错 -->
+            <!-- <url>https://github.bajins.com/ahviplc/maven-repository/raw/master/repository</url>-->
+            <!-- 这里使用fastgit 使用哪个 放开哪个-->
+            <url>https://raw.fastgit.org/ahviplc/maven-repository/master/repository</url>
+        </repository>
+
+        <!-- Note: this artifact it located at UGent repository (http://genesis.ugent.be/maven2/) 提示你-->
+        <repository>
+            <id>UGent</id>
+            <name>UGent</name>
+            <url>http://genesis.ugent.be/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
+
+        <!-- jshortcut-->
+        <!-- Note: this artifact is located at UGent repository (http://genesis.ugent.be/maven2/)-->
+        <!-- https://mvnrepository.com/repos/ugent-genesis-->
+        <!-- https://mvnrepository.com/artifact/net.jimmc/jshortcut -->
+        <!-- 需要上面的 repositories 中id为UGent的repository配置 和 maven配置文件配合 如backup-maven-settings.xml备份模板这样的配置-->
+        <dependency>
+            <groupId>net.jimmc</groupId>
+            <artifactId>jshortcut</artifactId>
+            <version>0.4-oberzalek</version>
+        </dependency>
+
+        <!-- log-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+        <!-- ali ddns-->
+        <!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-alidns -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-alidns</artifactId>
+            <version>2.0.16</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <!-- 解决SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]错误-->
+                <!--产生这个错误的原因是在产生日志信息的时候有两个桥接器，发生冲突导致error-->
+                <!--因为是有两个桥接器发生冲突，我们只需要消除一个就可以了 这里exclusion了-->
+                <exclusion>
+                    <artifactId>logback-classic</artifactId>
+                    <groupId>ch.qos.logback</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -35,17 +122,62 @@
     </dependencies>
 
     <build>
+        <!--出来之后是【JustDDNS-0.0.1-SNAPSHOT.jar】-->
+        <finalName>${project.artifactId}-${project.version}</finalName>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>${profile.dir}</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <!-- Ddns app-->
+                    <!-- 启动后 可以自己监听主机公网ip 若发生变化 可自动更新到阿里云域名ddns中-->
+                    <mainClass>com.lc.ddns.AppRun</mainClass>
+                    <!-- api app-->
+                    <!-- 启动后 可访问 http://localhost:8866/api/app -->
+                    <!-- <mainClass>com.lc.justddns.JustDdnsApplication</mainClass>-->
+                    <!-- 常规的可执行jar包的布局-->
+                    <layout>JAR</layout>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- 编译ddns jar使用 打包-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
