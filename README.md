@@ -48,3 +48,11 @@ https://github.com/zeruns/-Python-aliddns_ipv4-ipv6
 
 `访问我`
 > http://localhost:8866/api/app
+
+```markdown
+5分钟搭建最简单springboot-demo_Kevin.yang专栏-CSDN博客
+https://blog.csdn.net/ouyang111222/article/details/87862194
+
+Spring Boot Web 开发@Controller @RestController 使用教程 - fishpro - 博客园
+https://www.cnblogs.com/fishpro/p/spring-boot-study-restcontroller.html
+```
