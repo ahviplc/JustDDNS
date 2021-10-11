@@ -17,8 +17,10 @@ ipv4_flag = 1  # 是否开启ipv4 ddns解析,1为开启，0为关闭
 ipv6_flag = 1  # 是否开启ipv6 ddns解析,1为开启，0为关闭
 accessKeyId = "accessKeyId"  # 将accessKeyId改成自己的accessKeyId
 accessSecret = "accessSecret"  # 将accessSecret改成自己的accessSecret
-domain = "zeruns.tech"  # 你的主域名
-name_ipv4 = "blog"  # 要进行ipv4 ddns解析的子域名
+# 这里配合主域名 连起来就是 vip.oneplusone.vip
+domain = "oneplusone.vip"  # 你的主域名
+name_ipv4 = "vip"  # 要进行ipv4 ddns解析的子域名
+# 这里配合主域名 连起来就是 ipv6.test.oneplusone.vip (这里实际没设置这个)
 name_ipv6 = "ipv6.test"  # 要进行ipv6 ddns解析的子域名
 
 
