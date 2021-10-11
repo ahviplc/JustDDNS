@@ -1,0 +1,813 @@
+2021-10-11 14:23:32  读取配置文件，从和jar包相同目录下找ddns.properties
+2021-10-11 14:23:32  读取配置文件失败，请把ddns.properties放在和jar包相同目录下
+2021-10-11 14:23:32  再次读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:32  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:32  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:23:32  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:23:32  CheckRecords 检测域名解析...
+2021-10-11 14:23:32  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:32  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:32  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  CookieSpec selected: default
+2021-10-11 14:23:34  Auth cache not set in the context
+2021-10-11 14:23:34  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 0 of 5; total allocated: 0 of 64]
+2021-10-11 14:23:34  Connection leased: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:34  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:23:34  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:23:34  Connection established 192.168.0.16:3634<->106.11.172.2:80
+2021-10-11 14:23:34  http-outgoing-0: set socket timeout to 10000
+2021-10-11 14:23:34  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=e7afdb1f-7416-4cf6-b507-8bcf6f7119ad163393341475611&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=KGgDXscSu8EDjm%2FhoUJKqCyHRtI%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A34Z HTTP/1.1
+2021-10-11 14:23:34  Target auth state: UNCHALLENGED
+2021-10-11 14:23:34  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:34  http-outgoing-0 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=e7afdb1f-7416-4cf6-b507-8bcf6f7119ad163393341475611&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=KGgDXscSu8EDjm%2FhoUJKqCyHRtI%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A34Z HTTP/1.1
+2021-10-11 14:23:34  http-outgoing-0 >> Accept-Encoding: identity
+2021-10-11 14:23:34  http-outgoing-0 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:34  http-outgoing-0 >> Accept: application/json
+2021-10-11 14:23:34  http-outgoing-0 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:34  http-outgoing-0 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:34  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:34  http-outgoing-0 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:34  http-outgoing-0 >> Connection: Keep-Alive
+2021-10-11 14:23:34  http-outgoing-0 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=e7afdb1f-7416-4cf6-b507-8bcf6f7119ad163393341475611&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=KGgDXscSu8EDjm%2FhoUJKqCyHRtI%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A34Z HTTP/1.1[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Date: Mon, 11 Oct 2021 06:23:34 GMT[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Content-Length: 126[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "x-acs-request-id: EB6E9262-AD4E-598E-9E31-0D626FB123E3[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 << "{"TotalCount":0,"RequestId":"EB6E9262-AD4E-598E-9E31-0D626FB123E3","PageSize":20,"DomainRecords":{"Record":[]},"PageNumber":1}"
+2021-10-11 14:23:34  http-outgoing-0 << HTTP/1.1 200 OK
+2021-10-11 14:23:34  http-outgoing-0 << Date: Mon, 11 Oct 2021 06:23:34 GMT
+2021-10-11 14:23:34  http-outgoing-0 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:34  http-outgoing-0 << Content-Length: 126
+2021-10-11 14:23:34  http-outgoing-0 << Connection: keep-alive
+2021-10-11 14:23:34  http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:34  http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:34  http-outgoing-0 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:34  http-outgoing-0 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:34  http-outgoing-0 << x-acs-request-id: EB6E9262-AD4E-598E-9E31-0D626FB123E3
+2021-10-11 14:23:34  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:34  Connection [id: 0][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:34  http-outgoing-0: set socket timeout to 0
+2021-10-11 14:23:34  Connection released: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:34  CheckRecords 添加解析记录：vip2:114.95.209.174
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:34  CookieSpec selected: default
+2021-10-11 14:23:34  Auth cache not set in the context
+2021-10-11 14:23:34  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:34  Connection leased: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:34  http-outgoing-0: set socket timeout to 0
+2021-10-11 14:23:34  http-outgoing-0: set socket timeout to 10000
+2021-10-11 14:23:34  Executing request POST /?RR=vip2&Action=AddDomainRecord&DomainName=oneplusone.vip&Timestamp=2021-10-11T06%3A23%3A34Z&SignatureVersion=1.0&Type=A&ServiceCode=alidns&Format=JSON&SignatureNonce=7119621f-6498-41cf-abb9-82d521944f35163393341495211&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=Yn7k%2FhgSRJlSij1%2FARwiXw43YoQ%3D&Value=114.95.209.174&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou HTTP/1.1
+2021-10-11 14:23:34  Target auth state: UNCHALLENGED
+2021-10-11 14:23:34  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:34  http-outgoing-0 >> POST /?RR=vip2&Action=AddDomainRecord&DomainName=oneplusone.vip&Timestamp=2021-10-11T06%3A23%3A34Z&SignatureVersion=1.0&Type=A&ServiceCode=alidns&Format=JSON&SignatureNonce=7119621f-6498-41cf-abb9-82d521944f35163393341495211&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=Yn7k%2FhgSRJlSij1%2FARwiXw43YoQ%3D&Value=114.95.209.174&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou HTTP/1.1
+2021-10-11 14:23:34  http-outgoing-0 >> Accept-Encoding: identity
+2021-10-11 14:23:34  http-outgoing-0 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:34  http-outgoing-0 >> Accept: application/json
+2021-10-11 14:23:34  http-outgoing-0 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:34  http-outgoing-0 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:34  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:34  http-outgoing-0 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:34  http-outgoing-0 >> Connection: Keep-Alive
+2021-10-11 14:23:34  http-outgoing-0 >> "POST /?RR=vip2&Action=AddDomainRecord&DomainName=oneplusone.vip&Timestamp=2021-10-11T06%3A23%3A34Z&SignatureVersion=1.0&Type=A&ServiceCode=alidns&Format=JSON&SignatureNonce=7119621f-6498-41cf-abb9-82d521944f35163393341495211&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=Yn7k%2FhgSRJlSij1%2FARwiXw43YoQ%3D&Value=114.95.209.174&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou HTTP/1.1[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:34  http-outgoing-0 >> "[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Date: Mon, 11 Oct 2021 06:23:35 GMT[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Content-Length: 84[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "x-acs-request-id: BD6B110B-9662-50D3-B6D3-D11AA3435D26[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "[\r][\n]"
+2021-10-11 14:23:35  http-outgoing-0 << "{"RequestId":"BD6B110B-9662-50D3-B6D3-D11AA3435D26","RecordId":"723723884392629248"}"
+2021-10-11 14:23:35  http-outgoing-0 << HTTP/1.1 200 OK
+2021-10-11 14:23:35  http-outgoing-0 << Date: Mon, 11 Oct 2021 06:23:35 GMT
+2021-10-11 14:23:35  http-outgoing-0 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:35  http-outgoing-0 << Content-Length: 84
+2021-10-11 14:23:35  http-outgoing-0 << Connection: keep-alive
+2021-10-11 14:23:35  http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:35  http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:35  http-outgoing-0 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:35  http-outgoing-0 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:35  http-outgoing-0 << x-acs-request-id: BD6B110B-9662-50D3-B6D3-D11AA3435D26
+2021-10-11 14:23:35  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:35  Connection [id: 0][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:35  http-outgoing-0: set socket timeout to 0
+2021-10-11 14:23:35  Connection released: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:35  CheckRecords 检测完毕...
+2021-10-11 14:23:35  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:23:40  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:23:40  CheckRecords 检测域名解析...
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:40  CookieSpec selected: default
+2021-10-11 14:23:40  Auth cache not set in the context
+2021-10-11 14:23:40  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:40  Connection [id:0][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:23:40 CST 2021
+2021-10-11 14:23:40  http-outgoing-0: Close connection
+2021-10-11 14:23:40  Connection leased: [id: 1][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:40  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:23:40  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:23:40  Connection established 192.168.0.16:3638<->106.11.172.2:80
+2021-10-11 14:23:40  http-outgoing-1: set socket timeout to 10000
+2021-10-11 14:23:40  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=f4c301c8-66a7-4129-9800-d1337ca891fd163393342031511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=8YisfovRpuq%2B4pEL5%2Bo4pkvvN7o%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A40Z HTTP/1.1
+2021-10-11 14:23:40  Target auth state: UNCHALLENGED
+2021-10-11 14:23:40  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:40  http-outgoing-1 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=f4c301c8-66a7-4129-9800-d1337ca891fd163393342031511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=8YisfovRpuq%2B4pEL5%2Bo4pkvvN7o%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A40Z HTTP/1.1
+2021-10-11 14:23:40  http-outgoing-1 >> Accept-Encoding: identity
+2021-10-11 14:23:40  http-outgoing-1 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:40  http-outgoing-1 >> Accept: application/json
+2021-10-11 14:23:40  http-outgoing-1 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:40  http-outgoing-1 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:40  http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:40  http-outgoing-1 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:40  http-outgoing-1 >> Connection: Keep-Alive
+2021-10-11 14:23:40  http-outgoing-1 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=f4c301c8-66a7-4129-9800-d1337ca891fd163393342031511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=8YisfovRpuq%2B4pEL5%2Bo4pkvvN7o%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A40Z HTTP/1.1[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 >> "[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Date: Mon, 11 Oct 2021 06:23:40 GMT[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "x-acs-request-id: 61AAD4E5-F4A2-5DE8-9F75-04780FF39CAB[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "[\r][\n]"
+2021-10-11 14:23:40  http-outgoing-1 << "{"TotalCount":1,"RequestId":"61AAD4E5-F4A2-5DE8-9F75-04780FF39CAB","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:23:40  http-outgoing-1 << HTTP/1.1 200 OK
+2021-10-11 14:23:40  http-outgoing-1 << Date: Mon, 11 Oct 2021 06:23:40 GMT
+2021-10-11 14:23:40  http-outgoing-1 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:40  http-outgoing-1 << Content-Length: 308
+2021-10-11 14:23:40  http-outgoing-1 << Connection: keep-alive
+2021-10-11 14:23:40  http-outgoing-1 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:40  http-outgoing-1 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:40  http-outgoing-1 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:40  http-outgoing-1 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:40  http-outgoing-1 << x-acs-request-id: 61AAD4E5-F4A2-5DE8-9F75-04780FF39CAB
+2021-10-11 14:23:40  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:40  Connection [id: 1][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:40  http-outgoing-1: set socket timeout to 0
+2021-10-11 14:23:40  Connection released: [id: 1][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:40  CheckRecords 检测完毕...
+2021-10-11 14:23:40  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:23:45  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:23:45  CheckRecords 检测域名解析...
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:45  CookieSpec selected: default
+2021-10-11 14:23:45  Auth cache not set in the context
+2021-10-11 14:23:45  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:45  Connection [id:1][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:23:45 CST 2021
+2021-10-11 14:23:45  http-outgoing-1: Close connection
+2021-10-11 14:23:45  Connection leased: [id: 2][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:45  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:23:45  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:23:45  Connection established 192.168.0.16:3642<->106.11.172.2:80
+2021-10-11 14:23:45  http-outgoing-2: set socket timeout to 10000
+2021-10-11 14:23:45  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=db03e79e-3995-4def-884d-91927f61798b163393342563311&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=u2LYUwWN71DvEPVl5DmvFVvQ080%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A45Z HTTP/1.1
+2021-10-11 14:23:45  Target auth state: UNCHALLENGED
+2021-10-11 14:23:45  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:45  http-outgoing-2 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=db03e79e-3995-4def-884d-91927f61798b163393342563311&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=u2LYUwWN71DvEPVl5DmvFVvQ080%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A45Z HTTP/1.1
+2021-10-11 14:23:45  http-outgoing-2 >> Accept-Encoding: identity
+2021-10-11 14:23:45  http-outgoing-2 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:45  http-outgoing-2 >> Accept: application/json
+2021-10-11 14:23:45  http-outgoing-2 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:45  http-outgoing-2 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:45  http-outgoing-2 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:45  http-outgoing-2 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:45  http-outgoing-2 >> Connection: Keep-Alive
+2021-10-11 14:23:45  http-outgoing-2 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=db03e79e-3995-4def-884d-91927f61798b163393342563311&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=u2LYUwWN71DvEPVl5DmvFVvQ080%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A45Z HTTP/1.1[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 >> "[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Date: Mon, 11 Oct 2021 06:23:45 GMT[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "x-acs-request-id: FD4D6A13-BCA6-59A4-B5CE-8D8A393F090E[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "[\r][\n]"
+2021-10-11 14:23:45  http-outgoing-2 << "{"TotalCount":1,"RequestId":"FD4D6A13-BCA6-59A4-B5CE-8D8A393F090E","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:23:45  http-outgoing-2 << HTTP/1.1 200 OK
+2021-10-11 14:23:45  http-outgoing-2 << Date: Mon, 11 Oct 2021 06:23:45 GMT
+2021-10-11 14:23:45  http-outgoing-2 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:45  http-outgoing-2 << Content-Length: 308
+2021-10-11 14:23:45  http-outgoing-2 << Connection: keep-alive
+2021-10-11 14:23:45  http-outgoing-2 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:45  http-outgoing-2 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:45  http-outgoing-2 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:45  http-outgoing-2 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:45  http-outgoing-2 << x-acs-request-id: FD4D6A13-BCA6-59A4-B5CE-8D8A393F090E
+2021-10-11 14:23:45  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:45  Connection [id: 2][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:45  http-outgoing-2: set socket timeout to 0
+2021-10-11 14:23:45  Connection released: [id: 2][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:45  CheckRecords 检测完毕...
+2021-10-11 14:23:45  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:23:50  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:23:50  CheckRecords 检测域名解析...
+2021-10-11 14:23:50  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:50  CookieSpec selected: default
+2021-10-11 14:23:50  Auth cache not set in the context
+2021-10-11 14:23:50  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:50  Connection [id:2][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:23:50 CST 2021
+2021-10-11 14:23:50  http-outgoing-2: Close connection
+2021-10-11 14:23:50  Connection leased: [id: 3][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:50  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:23:50  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:23:50  Connection established 192.168.0.16:3647<->106.11.172.2:80
+2021-10-11 14:23:50  http-outgoing-3: set socket timeout to 10000
+2021-10-11 14:23:50  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=53af69c6-c303-4b9b-9784-539d2c1933d4163393343094011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=hDglAePRY6aveFCs7fH5qksZuKc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A50Z HTTP/1.1
+2021-10-11 14:23:50  Target auth state: UNCHALLENGED
+2021-10-11 14:23:50  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:50  http-outgoing-3 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=53af69c6-c303-4b9b-9784-539d2c1933d4163393343094011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=hDglAePRY6aveFCs7fH5qksZuKc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A50Z HTTP/1.1
+2021-10-11 14:23:50  http-outgoing-3 >> Accept-Encoding: identity
+2021-10-11 14:23:50  http-outgoing-3 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:50  http-outgoing-3 >> Accept: application/json
+2021-10-11 14:23:50  http-outgoing-3 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:50  http-outgoing-3 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:50  http-outgoing-3 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:50  http-outgoing-3 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:50  http-outgoing-3 >> Connection: Keep-Alive
+2021-10-11 14:23:50  http-outgoing-3 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=53af69c6-c303-4b9b-9784-539d2c1933d4163393343094011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=hDglAePRY6aveFCs7fH5qksZuKc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A50Z HTTP/1.1[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:50  http-outgoing-3 >> "[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Date: Mon, 11 Oct 2021 06:23:51 GMT[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "x-acs-request-id: C94AD17E-432A-5697-8292-7E0B93081CA0[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "[\r][\n]"
+2021-10-11 14:23:51  http-outgoing-3 << "{"TotalCount":1,"RequestId":"C94AD17E-432A-5697-8292-7E0B93081CA0","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:23:51  http-outgoing-3 << HTTP/1.1 200 OK
+2021-10-11 14:23:51  http-outgoing-3 << Date: Mon, 11 Oct 2021 06:23:51 GMT
+2021-10-11 14:23:51  http-outgoing-3 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:51  http-outgoing-3 << Content-Length: 308
+2021-10-11 14:23:51  http-outgoing-3 << Connection: keep-alive
+2021-10-11 14:23:51  http-outgoing-3 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:51  http-outgoing-3 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:51  http-outgoing-3 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:51  http-outgoing-3 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:51  http-outgoing-3 << x-acs-request-id: C94AD17E-432A-5697-8292-7E0B93081CA0
+2021-10-11 14:23:51  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:51  Connection [id: 3][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:51  http-outgoing-3: set socket timeout to 0
+2021-10-11 14:23:51  Connection released: [id: 3][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:51  CheckRecords 检测完毕...
+2021-10-11 14:23:51  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:23:56  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:23:56  CheckRecords 检测域名解析...
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:23:56  CookieSpec selected: default
+2021-10-11 14:23:56  Auth cache not set in the context
+2021-10-11 14:23:56  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:56  Connection [id:3][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:23:56 CST 2021
+2021-10-11 14:23:56  http-outgoing-3: Close connection
+2021-10-11 14:23:56  Connection leased: [id: 4][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:56  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:23:56  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:23:56  Connection established 192.168.0.16:3651<->106.11.172.2:80
+2021-10-11 14:23:56  http-outgoing-4: set socket timeout to 10000
+2021-10-11 14:23:56  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=b5f34e40-fe4a-4655-97d8-bcec61b2ccfb163393343625011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=PDNqvmOD3SVo1gTEG0%2BZyOCKVTc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A56Z HTTP/1.1
+2021-10-11 14:23:56  Target auth state: UNCHALLENGED
+2021-10-11 14:23:56  Proxy auth state: UNCHALLENGED
+2021-10-11 14:23:56  http-outgoing-4 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=b5f34e40-fe4a-4655-97d8-bcec61b2ccfb163393343625011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=PDNqvmOD3SVo1gTEG0%2BZyOCKVTc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A56Z HTTP/1.1
+2021-10-11 14:23:56  http-outgoing-4 >> Accept-Encoding: identity
+2021-10-11 14:23:56  http-outgoing-4 >> x-sdk-invoke-type: normal
+2021-10-11 14:23:56  http-outgoing-4 >> Accept: application/json
+2021-10-11 14:23:56  http-outgoing-4 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:23:56  http-outgoing-4 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:23:56  http-outgoing-4 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:23:56  http-outgoing-4 >> Host: alidns.aliyuncs.com
+2021-10-11 14:23:56  http-outgoing-4 >> Connection: Keep-Alive
+2021-10-11 14:23:56  http-outgoing-4 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=b5f34e40-fe4a-4655-97d8-bcec61b2ccfb163393343625011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=PDNqvmOD3SVo1gTEG0%2BZyOCKVTc%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A23%3A56Z HTTP/1.1[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 >> "[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Date: Mon, 11 Oct 2021 06:23:56 GMT[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "x-acs-request-id: 36725E77-F257-540B-8FF9-E96EA808D5DD[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "[\r][\n]"
+2021-10-11 14:23:56  http-outgoing-4 << "{"TotalCount":1,"RequestId":"36725E77-F257-540B-8FF9-E96EA808D5DD","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:23:56  http-outgoing-4 << HTTP/1.1 200 OK
+2021-10-11 14:23:56  http-outgoing-4 << Date: Mon, 11 Oct 2021 06:23:56 GMT
+2021-10-11 14:23:56  http-outgoing-4 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:23:56  http-outgoing-4 << Content-Length: 308
+2021-10-11 14:23:56  http-outgoing-4 << Connection: keep-alive
+2021-10-11 14:23:56  http-outgoing-4 << Access-Control-Allow-Origin: *
+2021-10-11 14:23:56  http-outgoing-4 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:23:56  http-outgoing-4 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:23:56  http-outgoing-4 << Access-Control-Max-Age: 172800
+2021-10-11 14:23:56  http-outgoing-4 << x-acs-request-id: 36725E77-F257-540B-8FF9-E96EA808D5DD
+2021-10-11 14:23:56  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:23:56  Connection [id: 4][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:23:56  http-outgoing-4: set socket timeout to 0
+2021-10-11 14:23:56  Connection released: [id: 4][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:23:56  CheckRecords 检测完毕...
+2021-10-11 14:23:56  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:24:01  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:24:01  CheckRecords 检测域名解析...
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:01  CookieSpec selected: default
+2021-10-11 14:24:01  Auth cache not set in the context
+2021-10-11 14:24:01  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:01  Connection [id:4][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:24:01 CST 2021
+2021-10-11 14:24:01  http-outgoing-4: Close connection
+2021-10-11 14:24:01  Connection leased: [id: 5][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:01  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:24:01  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:24:01  Connection established 192.168.0.16:3655<->106.11.172.2:80
+2021-10-11 14:24:01  http-outgoing-5: set socket timeout to 10000
+2021-10-11 14:24:01  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ba5061d2-eb76-43bd-87a1-72a812e839fa163393344155811&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=NQkcbou%2BBBGmw%2FPfW7gJfCvLqtE%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A01Z HTTP/1.1
+2021-10-11 14:24:01  Target auth state: UNCHALLENGED
+2021-10-11 14:24:01  Proxy auth state: UNCHALLENGED
+2021-10-11 14:24:01  http-outgoing-5 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ba5061d2-eb76-43bd-87a1-72a812e839fa163393344155811&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=NQkcbou%2BBBGmw%2FPfW7gJfCvLqtE%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A01Z HTTP/1.1
+2021-10-11 14:24:01  http-outgoing-5 >> Accept-Encoding: identity
+2021-10-11 14:24:01  http-outgoing-5 >> x-sdk-invoke-type: normal
+2021-10-11 14:24:01  http-outgoing-5 >> Accept: application/json
+2021-10-11 14:24:01  http-outgoing-5 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:24:01  http-outgoing-5 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:24:01  http-outgoing-5 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:24:01  http-outgoing-5 >> Host: alidns.aliyuncs.com
+2021-10-11 14:24:01  http-outgoing-5 >> Connection: Keep-Alive
+2021-10-11 14:24:01  http-outgoing-5 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ba5061d2-eb76-43bd-87a1-72a812e839fa163393344155811&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=NQkcbou%2BBBGmw%2FPfW7gJfCvLqtE%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A01Z HTTP/1.1[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 >> "[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Date: Mon, 11 Oct 2021 06:24:01 GMT[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "x-acs-request-id: 3F439FD1-CDC1-506C-AF7D-042A901E6545[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "[\r][\n]"
+2021-10-11 14:24:01  http-outgoing-5 << "{"TotalCount":1,"RequestId":"3F439FD1-CDC1-506C-AF7D-042A901E6545","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:24:01  http-outgoing-5 << HTTP/1.1 200 OK
+2021-10-11 14:24:01  http-outgoing-5 << Date: Mon, 11 Oct 2021 06:24:01 GMT
+2021-10-11 14:24:01  http-outgoing-5 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:24:01  http-outgoing-5 << Content-Length: 308
+2021-10-11 14:24:01  http-outgoing-5 << Connection: keep-alive
+2021-10-11 14:24:01  http-outgoing-5 << Access-Control-Allow-Origin: *
+2021-10-11 14:24:01  http-outgoing-5 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:24:01  http-outgoing-5 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:24:01  http-outgoing-5 << Access-Control-Max-Age: 172800
+2021-10-11 14:24:01  http-outgoing-5 << x-acs-request-id: 3F439FD1-CDC1-506C-AF7D-042A901E6545
+2021-10-11 14:24:01  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:24:01  Connection [id: 5][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:24:01  http-outgoing-5: set socket timeout to 0
+2021-10-11 14:24:01  Connection released: [id: 5][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:01  CheckRecords 检测完毕...
+2021-10-11 14:24:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:24:06  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:24:06  CheckRecords 检测域名解析...
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:06  CookieSpec selected: default
+2021-10-11 14:24:06  Auth cache not set in the context
+2021-10-11 14:24:06  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:06  Connection [id:5][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:24:06 CST 2021
+2021-10-11 14:24:06  http-outgoing-5: Close connection
+2021-10-11 14:24:06  Connection leased: [id: 6][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:06  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:24:06  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:24:06  Connection established 192.168.0.16:3659<->106.11.172.2:80
+2021-10-11 14:24:06  http-outgoing-6: set socket timeout to 10000
+2021-10-11 14:24:06  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=3e7b8ea5-3b92-435f-bf02-8995353b6290163393344684511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=RFPhHRPF6%2BAyW3ssEH4nP1MmRHU%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A06Z HTTP/1.1
+2021-10-11 14:24:06  Target auth state: UNCHALLENGED
+2021-10-11 14:24:06  Proxy auth state: UNCHALLENGED
+2021-10-11 14:24:06  http-outgoing-6 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=3e7b8ea5-3b92-435f-bf02-8995353b6290163393344684511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=RFPhHRPF6%2BAyW3ssEH4nP1MmRHU%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A06Z HTTP/1.1
+2021-10-11 14:24:06  http-outgoing-6 >> Accept-Encoding: identity
+2021-10-11 14:24:06  http-outgoing-6 >> x-sdk-invoke-type: normal
+2021-10-11 14:24:06  http-outgoing-6 >> Accept: application/json
+2021-10-11 14:24:06  http-outgoing-6 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:24:06  http-outgoing-6 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:24:06  http-outgoing-6 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:24:06  http-outgoing-6 >> Host: alidns.aliyuncs.com
+2021-10-11 14:24:06  http-outgoing-6 >> Connection: Keep-Alive
+2021-10-11 14:24:06  http-outgoing-6 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=3e7b8ea5-3b92-435f-bf02-8995353b6290163393344684511&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=RFPhHRPF6%2BAyW3ssEH4nP1MmRHU%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A06Z HTTP/1.1[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 >> "[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Date: Mon, 11 Oct 2021 06:24:06 GMT[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "x-acs-request-id: 59A0453F-D0AA-5EFD-B7DC-DF47C21DAB70[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "[\r][\n]"
+2021-10-11 14:24:06  http-outgoing-6 << "{"TotalCount":1,"RequestId":"59A0453F-D0AA-5EFD-B7DC-DF47C21DAB70","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:24:06  http-outgoing-6 << HTTP/1.1 200 OK
+2021-10-11 14:24:06  http-outgoing-6 << Date: Mon, 11 Oct 2021 06:24:06 GMT
+2021-10-11 14:24:06  http-outgoing-6 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:24:06  http-outgoing-6 << Content-Length: 308
+2021-10-11 14:24:06  http-outgoing-6 << Connection: keep-alive
+2021-10-11 14:24:06  http-outgoing-6 << Access-Control-Allow-Origin: *
+2021-10-11 14:24:06  http-outgoing-6 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:24:06  http-outgoing-6 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:24:06  http-outgoing-6 << Access-Control-Max-Age: 172800
+2021-10-11 14:24:06  http-outgoing-6 << x-acs-request-id: 59A0453F-D0AA-5EFD-B7DC-DF47C21DAB70
+2021-10-11 14:24:06  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:24:06  Connection [id: 6][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:24:06  http-outgoing-6: set socket timeout to 0
+2021-10-11 14:24:06  Connection released: [id: 6][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:06  CheckRecords 检测完毕...
+2021-10-11 14:24:06  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:11  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:11  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:24:12  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:24:12  CheckRecords 检测域名解析...
+2021-10-11 14:24:12  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:12  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:12  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:12  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:12  CookieSpec selected: default
+2021-10-11 14:24:12  Auth cache not set in the context
+2021-10-11 14:24:12  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:12  Connection [id:6][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:24:11 CST 2021
+2021-10-11 14:24:12  http-outgoing-6: Close connection
+2021-10-11 14:24:12  Connection leased: [id: 7][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:12  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:24:12  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:24:12  Connection established 192.168.0.16:3664<->106.11.172.2:80
+2021-10-11 14:24:12  http-outgoing-7: set socket timeout to 10000
+2021-10-11 14:24:12  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=518369b5-4fb6-44c8-bbed-8c3cc8ac3cb2163393345209911&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=jJe1l1%2BjWs%2B8s%2BxpgSO2YFMUi4g%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A12Z HTTP/1.1
+2021-10-11 14:24:12  Target auth state: UNCHALLENGED
+2021-10-11 14:24:12  Proxy auth state: UNCHALLENGED
+2021-10-11 14:24:12  http-outgoing-7 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=518369b5-4fb6-44c8-bbed-8c3cc8ac3cb2163393345209911&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=jJe1l1%2BjWs%2B8s%2BxpgSO2YFMUi4g%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A12Z HTTP/1.1
+2021-10-11 14:24:12  http-outgoing-7 >> Accept-Encoding: identity
+2021-10-11 14:24:12  http-outgoing-7 >> x-sdk-invoke-type: normal
+2021-10-11 14:24:12  http-outgoing-7 >> Accept: application/json
+2021-10-11 14:24:12  http-outgoing-7 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:24:12  http-outgoing-7 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:24:12  http-outgoing-7 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:24:12  http-outgoing-7 >> Host: alidns.aliyuncs.com
+2021-10-11 14:24:12  http-outgoing-7 >> Connection: Keep-Alive
+2021-10-11 14:24:12  http-outgoing-7 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=518369b5-4fb6-44c8-bbed-8c3cc8ac3cb2163393345209911&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=jJe1l1%2BjWs%2B8s%2BxpgSO2YFMUi4g%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A12Z HTTP/1.1[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 >> "[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Date: Mon, 11 Oct 2021 06:24:12 GMT[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "x-acs-request-id: CA5015AC-51F6-597F-BFA8-984CB97D3D84[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "[\r][\n]"
+2021-10-11 14:24:12  http-outgoing-7 << "{"TotalCount":1,"RequestId":"CA5015AC-51F6-597F-BFA8-984CB97D3D84","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:24:12  http-outgoing-7 << HTTP/1.1 200 OK
+2021-10-11 14:24:12  http-outgoing-7 << Date: Mon, 11 Oct 2021 06:24:12 GMT
+2021-10-11 14:24:12  http-outgoing-7 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:24:12  http-outgoing-7 << Content-Length: 308
+2021-10-11 14:24:12  http-outgoing-7 << Connection: keep-alive
+2021-10-11 14:24:12  http-outgoing-7 << Access-Control-Allow-Origin: *
+2021-10-11 14:24:12  http-outgoing-7 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:24:12  http-outgoing-7 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:24:12  http-outgoing-7 << Access-Control-Max-Age: 172800
+2021-10-11 14:24:12  http-outgoing-7 << x-acs-request-id: CA5015AC-51F6-597F-BFA8-984CB97D3D84
+2021-10-11 14:24:12  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:24:12  Connection [id: 7][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:24:12  http-outgoing-7: set socket timeout to 0
+2021-10-11 14:24:12  Connection released: [id: 7][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:12  CheckRecords 检测完毕...
+2021-10-11 14:24:12  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:24:17  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:24:17  CheckRecords 检测域名解析...
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:17  CookieSpec selected: default
+2021-10-11 14:24:17  Auth cache not set in the context
+2021-10-11 14:24:17  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:17  Connection [id:7][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:24:17 CST 2021
+2021-10-11 14:24:17  http-outgoing-7: Close connection
+2021-10-11 14:24:17  Connection leased: [id: 8][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:17  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:24:17  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:24:17  Connection established 192.168.0.16:3668<->106.11.172.2:80
+2021-10-11 14:24:17  http-outgoing-8: set socket timeout to 10000
+2021-10-11 14:24:17  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=42a87507-f568-4ebd-9330-d5996815714b163393345741111&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=vV4dcq4skMxrNxF7p5AasfL%2F71s%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A17Z HTTP/1.1
+2021-10-11 14:24:17  Target auth state: UNCHALLENGED
+2021-10-11 14:24:17  Proxy auth state: UNCHALLENGED
+2021-10-11 14:24:17  http-outgoing-8 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=42a87507-f568-4ebd-9330-d5996815714b163393345741111&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=vV4dcq4skMxrNxF7p5AasfL%2F71s%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A17Z HTTP/1.1
+2021-10-11 14:24:17  http-outgoing-8 >> Accept-Encoding: identity
+2021-10-11 14:24:17  http-outgoing-8 >> x-sdk-invoke-type: normal
+2021-10-11 14:24:17  http-outgoing-8 >> Accept: application/json
+2021-10-11 14:24:17  http-outgoing-8 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:24:17  http-outgoing-8 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:24:17  http-outgoing-8 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:24:17  http-outgoing-8 >> Host: alidns.aliyuncs.com
+2021-10-11 14:24:17  http-outgoing-8 >> Connection: Keep-Alive
+2021-10-11 14:24:17  http-outgoing-8 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=42a87507-f568-4ebd-9330-d5996815714b163393345741111&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=vV4dcq4skMxrNxF7p5AasfL%2F71s%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A17Z HTTP/1.1[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 >> "[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Date: Mon, 11 Oct 2021 06:24:17 GMT[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "x-acs-request-id: 76B7A8CA-5F4D-5F27-A5D5-184AB2FDFFDA[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "[\r][\n]"
+2021-10-11 14:24:17  http-outgoing-8 << "{"TotalCount":1,"RequestId":"76B7A8CA-5F4D-5F27-A5D5-184AB2FDFFDA","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:24:17  http-outgoing-8 << HTTP/1.1 200 OK
+2021-10-11 14:24:17  http-outgoing-8 << Date: Mon, 11 Oct 2021 06:24:17 GMT
+2021-10-11 14:24:17  http-outgoing-8 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:24:17  http-outgoing-8 << Content-Length: 308
+2021-10-11 14:24:17  http-outgoing-8 << Connection: keep-alive
+2021-10-11 14:24:17  http-outgoing-8 << Access-Control-Allow-Origin: *
+2021-10-11 14:24:17  http-outgoing-8 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:24:17  http-outgoing-8 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:24:17  http-outgoing-8 << Access-Control-Max-Age: 172800
+2021-10-11 14:24:17  http-outgoing-8 << x-acs-request-id: 76B7A8CA-5F4D-5F27-A5D5-184AB2FDFFDA
+2021-10-11 14:24:17  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:24:17  Connection [id: 8][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:24:17  http-outgoing-8: set socket timeout to 0
+2021-10-11 14:24:17  Connection released: [id: 8][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:17  CheckRecords 检测完毕...
+2021-10-11 14:24:17  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:24:22  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:24:22  CheckRecords 检测域名解析...
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:24:22  CookieSpec selected: default
+2021-10-11 14:24:22  Auth cache not set in the context
+2021-10-11 14:24:22  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:22  Connection [id:8][route:{}->http://alidns.aliyuncs.com:80][state:null] expired @ Mon Oct 11 14:24:22 CST 2021
+2021-10-11 14:24:22  http-outgoing-8: Close connection
+2021-10-11 14:24:22  Connection leased: [id: 9][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:22  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:24:22  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:24:22  Connection established 192.168.0.16:3672<->106.11.172.2:80
+2021-10-11 14:24:22  http-outgoing-9: set socket timeout to 10000
+2021-10-11 14:24:22  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ec73c534-5746-48f7-b1ff-1ed6b85d2446163393346271011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=xzw4gF%2FMYRWMvRPyQ1k8WalReu4%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A22Z HTTP/1.1
+2021-10-11 14:24:22  Target auth state: UNCHALLENGED
+2021-10-11 14:24:22  Proxy auth state: UNCHALLENGED
+2021-10-11 14:24:22  http-outgoing-9 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ec73c534-5746-48f7-b1ff-1ed6b85d2446163393346271011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=xzw4gF%2FMYRWMvRPyQ1k8WalReu4%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A22Z HTTP/1.1
+2021-10-11 14:24:22  http-outgoing-9 >> Accept-Encoding: identity
+2021-10-11 14:24:22  http-outgoing-9 >> x-sdk-invoke-type: normal
+2021-10-11 14:24:22  http-outgoing-9 >> Accept: application/json
+2021-10-11 14:24:22  http-outgoing-9 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:24:22  http-outgoing-9 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:24:22  http-outgoing-9 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:24:22  http-outgoing-9 >> Host: alidns.aliyuncs.com
+2021-10-11 14:24:22  http-outgoing-9 >> Connection: Keep-Alive
+2021-10-11 14:24:22  http-outgoing-9 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=ec73c534-5746-48f7-b1ff-1ed6b85d2446163393346271011&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=xzw4gF%2FMYRWMvRPyQ1k8WalReu4%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A24%3A22Z HTTP/1.1[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 >> "[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Date: Mon, 11 Oct 2021 06:24:22 GMT[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Content-Length: 308[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "x-acs-request-id: ED3E3B61-F75C-5D5D-9955-ACCD4A1FA438[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "[\r][\n]"
+2021-10-11 14:24:22  http-outgoing-9 << "{"TotalCount":1,"RequestId":"ED3E3B61-F75C-5D5D-9955-ACCD4A1FA438","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:24:22  http-outgoing-9 << HTTP/1.1 200 OK
+2021-10-11 14:24:22  http-outgoing-9 << Date: Mon, 11 Oct 2021 06:24:22 GMT
+2021-10-11 14:24:22  http-outgoing-9 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:24:22  http-outgoing-9 << Content-Length: 308
+2021-10-11 14:24:22  http-outgoing-9 << Connection: keep-alive
+2021-10-11 14:24:22  http-outgoing-9 << Access-Control-Allow-Origin: *
+2021-10-11 14:24:22  http-outgoing-9 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:24:22  http-outgoing-9 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:24:22  http-outgoing-9 << Access-Control-Max-Age: 172800
+2021-10-11 14:24:22  http-outgoing-9 << x-acs-request-id: ED3E3B61-F75C-5D5D-9955-ACCD4A1FA438
+2021-10-11 14:24:22  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:24:22  Connection [id: 9][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:24:22  http-outgoing-9: set socket timeout to 0
+2021-10-11 14:24:22  Connection released: [id: 9][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:24:22  CheckRecords 检测完毕...
+2021-10-11 14:24:22  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:00  读取配置文件，从和jar包相同目录下找ddns.properties
+2021-10-11 14:35:00  读取配置文件失败，请把ddns.properties放在和jar包相同目录下
+2021-10-11 14:35:00  再次读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:00  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:00  CheckRecords 正在爬取主机公网IP地址...
+2021-10-11 14:35:01  CheckRecords 爬取到的主机公网IP地址...为=> 114.95.209.174
+2021-10-11 14:35:01  CheckRecords 检测域名解析...
+2021-10-11 14:35:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:01  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:03  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:03  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:03  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
+2021-10-11 14:35:03  CookieSpec selected: default
+2021-10-11 14:35:03  Auth cache not set in the context
+2021-10-11 14:35:03  Connection request: [route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 0 of 5; total allocated: 0 of 64]
+2021-10-11 14:35:03  Connection leased: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 0; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:35:03  Opening connection {}->http://alidns.aliyuncs.com:80
+2021-10-11 14:35:03  Connecting to alidns.aliyuncs.com/106.11.172.2:80
+2021-10-11 14:35:03  Connection established 192.168.0.16:3758<->106.11.172.2:80
+2021-10-11 14:35:03  http-outgoing-0: set socket timeout to 10000
+2021-10-11 14:35:03  Executing request POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=cd2e5a18-e4c3-41ad-968a-6f81bf5c1be0163393410315711&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=FVNynSsbgpLNjDHmj2u4U%2FV45Lw%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A35%3A03Z HTTP/1.1
+2021-10-11 14:35:03  Target auth state: UNCHALLENGED
+2021-10-11 14:35:03  Proxy auth state: UNCHALLENGED
+2021-10-11 14:35:03  http-outgoing-0 >> POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=cd2e5a18-e4c3-41ad-968a-6f81bf5c1be0163393410315711&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=FVNynSsbgpLNjDHmj2u4U%2FV45Lw%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A35%3A03Z HTTP/1.1
+2021-10-11 14:35:03  http-outgoing-0 >> Accept-Encoding: identity
+2021-10-11 14:35:03  http-outgoing-0 >> x-sdk-invoke-type: normal
+2021-10-11 14:35:03  http-outgoing-0 >> Accept: application/json
+2021-10-11 14:35:03  http-outgoing-0 >> x-sdk-client: Java/2.0.0
+2021-10-11 14:35:03  http-outgoing-0 >> User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient
+2021-10-11 14:35:03  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2021-10-11 14:35:03  http-outgoing-0 >> Host: alidns.aliyuncs.com
+2021-10-11 14:35:03  http-outgoing-0 >> Connection: Keep-Alive
+2021-10-11 14:35:03  http-outgoing-0 >> "POST /?SubDomain=vip2.oneplusone.vip&SignatureVersion=1.0&Action=DescribeSubDomainRecords&ServiceCode=alidns&Format=JSON&SignatureNonce=cd2e5a18-e4c3-41ad-968a-6f81bf5c1be0163393410315711&Version=2015-01-09&AccessKeyId=LTAI5tHqu7U6Uk78GKwYwxim&Signature=FVNynSsbgpLNjDHmj2u4U%2FV45Lw%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-hangzhou&Timestamp=2021-10-11T06%3A35%3A03Z HTTP/1.1[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "Accept-Encoding: identity[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "x-sdk-invoke-type: normal[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "x-sdk-client: Java/2.0.0[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "User-Agent: AlibabaCloud (Windows 10; amd64) Java/1.8.0_211-b12 Core/4.5.2 HTTPClient/ApacheHttpClient[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "Host: alidns.aliyuncs.com[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 >> "[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Date: Mon, 11 Oct 2021 06:35:03 GMT[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Content-Length: 309[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "Access-Control-Max-Age: 172800[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "x-acs-request-id: 6865ED05-A685-5560-A9FB-B025B7531B69[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "[\r][\n]"
+2021-10-11 14:35:03  http-outgoing-0 << "{"TotalCount":1,"RequestId":"6865ED05-A685-5560-A9FB-B025B7531B69","PageSize":20,"DomainRecords":{"Record":[{"RR":"vip2","Line":"default","Status":"DISABLE","Locked":false,"Type":"A","DomainName":"oneplusone.vip","Value":"114.95.209.174","RecordId":"723723884392629248","TTL":600,"Weight":1}]},"PageNumber":1}"
+2021-10-11 14:35:03  http-outgoing-0 << HTTP/1.1 200 OK
+2021-10-11 14:35:03  http-outgoing-0 << Date: Mon, 11 Oct 2021 06:35:03 GMT
+2021-10-11 14:35:03  http-outgoing-0 << Content-Type: application/json;charset=utf-8
+2021-10-11 14:35:03  http-outgoing-0 << Content-Length: 309
+2021-10-11 14:35:03  http-outgoing-0 << Connection: keep-alive
+2021-10-11 14:35:03  http-outgoing-0 << Access-Control-Allow-Origin: *
+2021-10-11 14:35:03  http-outgoing-0 << Access-Control-Allow-Methods: POST, GET, OPTIONS
+2021-10-11 14:35:03  http-outgoing-0 << Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature
+2021-10-11 14:35:03  http-outgoing-0 << Access-Control-Max-Age: 172800
+2021-10-11 14:35:03  http-outgoing-0 << x-acs-request-id: 6865ED05-A685-5560-A9FB-B025B7531B69
+2021-10-11 14:35:03  Connection can be kept alive for 5000 MILLISECONDS
+2021-10-11 14:35:03  Connection [id: 0][route: {}->http://alidns.aliyuncs.com:80] can be kept alive for 5.0 seconds
+2021-10-11 14:35:03  http-outgoing-0: set socket timeout to 0
+2021-10-11 14:35:03  Connection released: [id: 0][route: {}->http://alidns.aliyuncs.com:80][total available: 1; route allocated: 1 of 5; total allocated: 1 of 64]
+2021-10-11 14:35:03  CheckRecords 已存在此解析 公网ip未改变 无需更新dns解析 此解析记录详情 子域名: vip2 公网ip: 114.95.209.174 对应三级域名为: vip2.oneplusone.vip
+2021-10-11 14:35:03  CheckRecords 检测完毕...
+2021-10-11 14:35:03  reload isOut为false 读取配置文件，从src/main/resources下的ddns.properties
