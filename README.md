@@ -101,7 +101,7 @@ backup-maven-settings.xml 备份 来自于
 https://hub.fastgit.org/ahviplc/lc-es-api/blob/master/lc-es-api/pom.xml
 ```
 
-`导出python安装的所有依赖：`
+`安装python所需的所有依赖：`
 
 生成 requirementts.txt:    
 执行命令
@@ -148,3 +148,32 @@ https://hub.fastgit.org/ahviplc/lc-es-api/blob/master/lc-es-api/pom.xml
     </executions>
 </plugin>
 ```
+
+# 注意点
+
+## 1.0 jshortcut的注意点
+
+maven包 jshortcut 不在maven中央仓库中 需要配置其他仓库如下
+http://genesis.ugent.be
+
+```xml
+<!-- jshortcut-->
+<!-- Note: this artifact is located at UGent repository (http://genesis.ugent.be/maven2/)-->
+<!-- https://mvnrepository.com/repos/ugent-genesis-->
+<!-- https://mvnrepository.com/artifact/net.jimmc/jshortcut -->
+<!-- 需要上面的 repositories 中id为UGent的repository配置 和 maven配置文件配合 如backup-maven-settings.xml备份模板这样的配置-->
+<dependency>
+    <groupId>net.jimmc</groupId>
+    <artifactId>jshortcut</artifactId>
+    <version>0.4-oberzalek</version>
+</dependency>
+```
+
+或者从网址  
+http://genesis.ugent.be/maven2/net/jimmc/jshortcut/  
+下载下来jar包 放入maven仓库本地目录 
+【.m2\repository\net\jimmc\jshortcut\0.4-oberzalek】
+
+## 2.0 todo
+
+todo
