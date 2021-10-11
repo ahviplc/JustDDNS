@@ -19,7 +19,7 @@ The following guides illustrate how to use some features concretely:
 
 # JustDDNS
 
-> 阿里云域名ddns动态域名解析 Java版本
+> 阿里云域名ddns动态域名解析 By Java and Python.
 
 ```markdown
 实现动态域名解析DDNS Java版本
