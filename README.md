@@ -21,6 +21,8 @@ The following guides illustrate how to use some features concretely:
 
 > 阿里云域名ddns动态域名解析 By Java and Python.
 
+> https://github.com/ahviplc/JustDDNS
+
 ```markdown
 实现动态域名解析DDNS Java版本
 https://help.aliyun.com/document_detail/172994.html
